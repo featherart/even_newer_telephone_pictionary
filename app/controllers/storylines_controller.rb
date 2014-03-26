@@ -32,9 +32,11 @@ class StorylinesController < ApplicationController
   	@storyline = Storyline.create(params[:storyline])
     @storyline.time_stop = @storyline.created_at + 5.minutes
     @storyline.active = true
-    @storyline.story_name = params[:storyline][:story_name]
+    @storyline.story_name = params[:story_name]
+    @storyline.num_players = params[:num_players]
+    @storyline.user_id = current_user.id
   	@storyline.save!
-    
+    #binding.pry
     #@turn = Turn.create(turn_number: 1, user_id: current_user.id)   
     #@player = Player.create(params[:player])
     #@player.name = params[:player][:player_name]

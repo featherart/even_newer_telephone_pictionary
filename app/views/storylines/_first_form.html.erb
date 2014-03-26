@@ -6,12 +6,12 @@
 <%= f.text_field :story_name, placeholder: "please enter a name for this story", required: true, autofocus: true %>
 <%= f.label "Number of players" %>
 <%= f.select :num_players, options_for_select(%w[2 3 4 5 6 7 8 9 10]) %>
-<%= hidden_field :user_id, current_user.id %>
 <button type="submit" id="submit_button" id="submit_storyline" class="btn btn-default">send it</button> 
 <% end %>
 <br>
 </div>
 <div class="hide" id="players_form" style="visibility:hidden;"> 
+
 <% @player = Player.new %>
 <%= form_for(@player) do |p| %>
     <%= fields_for Player.new do |p| %>  
