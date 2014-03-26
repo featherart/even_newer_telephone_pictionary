@@ -1,4 +1,4 @@
-<div class="input-group">
+<div class="input-group" id="show_story">
   <h1><%= @storyline.story_name %></h1>
     <% @pictures = Picture.where(storyline_id: @storyline.id) %>
     <% @phrases = Phrase.where(storyline_id: @storyline.id) %>

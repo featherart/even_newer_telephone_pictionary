@@ -48,11 +48,10 @@ class StorylinesController < ApplicationController
     #@player.send_text(text)
     #render :json => @player
     respond_to do |format|
-      format.html { redirect_to :back }
+      format.html { redirect_to new_storyline_path(players: true) }
       format.js
     end
   end
-  
   # do an ajax call then render the partial that displays a story
   def show 
   	@storyline = Storyline.find(params[:id])

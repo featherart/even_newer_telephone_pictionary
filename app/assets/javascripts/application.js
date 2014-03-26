@@ -21,9 +21,9 @@ var TelephonePictionary = TelephonePictionary || {}
 
 TelephonePictionary.Storyline = {
   successHandler: function(data) {
-    console.log(data);
-    console.log("successfully created a storyline");
+    console.log("successfully created a new storyline");
     $("#new_storyline").hide();
+    $("#player_form").append($("#player_fields").html());
   }
 };
 
@@ -56,7 +56,7 @@ $(function() {
         numPlayers = $("#storyline_num_players").val();
 
       $.ajax({
-        url: "/storylines/create/",
+        url: "/storylines/create?players=true",
         type: "POST",
         data: {
           active: true,
