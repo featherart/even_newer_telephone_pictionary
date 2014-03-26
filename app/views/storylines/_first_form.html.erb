@@ -1,35 +1,33 @@
-<div class="input-group">
-  
-  <div id="storyline_form">
-<% @storyline = Storyline.new %>
-<%= form_for(@storyline) do |f| %>
-<%= f.text_field :story_name, placeholder: "please enter a name for this story", required: true, autofocus: true %>
-<%= f.label "Number of players" %>
-<%= f.select :num_players, options_for_select(%w[2 3 4 5 6 7 8 9 10]) %>
-<button type="submit" id="submit_button" id="submit_storyline" class="btn btn-default">send it</button> 
-<% end %>
-<br>
-</div>
-<div class="hide" id="players_form" style="visibility:hidden;"> 
-
-<% @player = Player.new %>
-<%= form_for(@player) do |p| %>
-    <%= fields_for Player.new do |p| %>  
-    <%= p.text_field :name, placeholder: "enter player's name" %>
-    <%= p.text_field :email, placeholder: "enter player's email address" %>
-    <%= hidden_field :storyline_id, @storyline.id %>
-
-<% end %>
-<br>
+<div id="storyline_form" class="input-group">
+  <% @storyline = Storyline.new %>
+  <%= form_for(@storyline) do |f| %>
+    <%= f.text_field :story_name, placeholder: "please enter a name for this story", required: true, autofocus: true %>
+    <%= f.label "Number of players" %>
+    <%= f.select :num_players, options_for_select(%w[2 3 4 5 6 7 8 9 10]) %> <br>
+    <button type="submit" id="submit_button" id="submit_storyline" class="btn btn-default">send it</button>
+  <% end %>
+  <br>
 </div>
 
-  <button type="submit" id="submit_button" id="submit_storyline" class="btn btn-default">send it</button>
-  <button type="submit" action="javascript;" id="add_player" class="btn btn-default">add player</button>
-  
- 
+<!--<div class="hide" id="players_form" style="visibility:hidden;">-->
+<div id="player_form" class="input-group">
+  <% @player = Player.new %>
+  <%= form_for(@player) do |p| %>
+    <%= fields_for Player.new do |p| %>
+      <%= p.text_field :name, placeholder: "enter player's name" %>
+      <%= p.text_field :email, placeholder: "enter player's email address" %>
+      <%= hidden_field :storyline_id, @storyline.id %>
 
-<% end %>
-</div>
-<div style="margin-top: 30px;">
-<%= link_to 'back', root_path %>
-</div>
+    <% end %>
+    <br>
+    </div>
+
+    <button type="submit" id="submit_button" id="submit_storyline" class="btn btn-default">send it</button>
+    <button type="submit" action="javascript;" id="add_player" class="btn btn-default">add player</button>
+
+
+  <% end %>
+  </div>
+  <div style="margin-top: 30px;">
+    <%= link_to 'back', root_path %>
+  </div>
