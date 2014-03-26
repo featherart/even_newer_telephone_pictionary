@@ -37,27 +37,23 @@ $(function() {
   });
 
   submitStoryline();
-  //submitPlayer();
+  submitPlayer();
 
   function submitStoryline () {
     $form = $("#new_storyline");
     
     console.log("here's storyline form: " + $form.length);
     
-//    $('#storyline_story_name').on("change", function() {
-//       alert("clicked");
-//       alert($('#storyline_story_name').val());
-//    });
-    
-//    $form.on("submit", function(event) {
-    $("#submit_storyline").on("click", function(event) {
+    $form.on("submit", function(event) {
+    //$("#submit_storyline").on("click", function(event) {
       
       event.preventDefault();
       
       var story_name = $("#storyline_story_name").val(),
           name = $("#player_name").val(),
           email = $("#player_email").val(),
-          turn_number = $("#player_turn_number").val();
+          turnNumber = $("#player_turn_number").val(),
+          userId = $("#storyline_user_id").val();
 
           console.log("in application, vars: " + name + ' ' + email + " " + story_name);
       $.ajax({
@@ -65,12 +61,51 @@ $(function() {
         type: "POST",
         data: {
           active: true,
-          story_name: story_name,
-          name: name,
-          email: email,
-          turn_number: turn_number
+          story_name: storyName,
+          user_id: userId,
+          player: {
+            name: name,
+            email: email,
+            turn_number: turnNumber
+          },
+          
         },
       success: TelephonePictionary.Storyline.successHandler
+      });
+    });
+  };
+
+  function submitPlayer() {
+    $form = $("#new_player");
+
+    console.log("here's player form: " + $form.length);
+
+    $form.on("submit", function(event) {
+
+      event.preventDefault();
+
+      var story_name = $("#storyline_story_name").val(),
+        name = $("#player_name").val(),
+        email = $("#player_email").val(),
+        turnNumber = $("#player_turn_number").val(),
+        userId = $("#storyline_user_id").val();
+
+      console.log("in application, vars: " + name + ' ' + email + " " + story_name);
+      $.ajax({
+        url: "/storylines/create/",
+        type: "POST",
+        data: {
+          active: true,
+          story_name: storyName,
+          user_id: userId,
+          player: {
+            name: name,
+            email: email,
+            turn_number: turnNumber
+          },
+
+        },
+        success: TelephonePictionary.Storyline.successHandler
       });
     });
   };
