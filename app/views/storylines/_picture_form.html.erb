@@ -1,0 +1,19 @@
+ <div class="input-group">
+  <!-- begin sketch experiment -->
+  <div id='color_drawing'>
+    <div class='tools'>
+    </div>
+    <canvas id='drawing' width='400' height='300'></canvas>
+  </div>
+  <!-- end sketch experiment -->
+ 
+  <%= form_for(@picture) do |f| %>
+    <%= f.hidden_field :image %>
+    <%= hidden_field_tag :storyline_id, @storyline.id %>
+    <%= hidden_field_tag :turn_number, @turn %>
+    <%= hidden_field_tag :user_id, current_user.id %>
+    <button type="button" id="clear" class="btn btn-default">Clear</button>
+    <button type="submit" id="submit_button" class="btn btn-default">send it</button>
+  <% end %>
+</div>
+

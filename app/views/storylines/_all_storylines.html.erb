@@ -1,0 +1,10 @@
+<div class="input-group">
+<ul>
+  <% @storylines.each do |storyline| %>
+    <li><%= link_to "#{storyline.story_name} created on #{storyline.created_at}", storyline %>
+    </li>
+  <% end %>
+</ul>
+</div>
+<%= link_to "Back", root_path %>
+

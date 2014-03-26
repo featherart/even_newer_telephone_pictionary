@@ -1,0 +1,1519 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (16.8ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", nil], ["created_at", Fri, 10 Jan 2014 22:40:12 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Fri, 10 Jan 2014 22:40:12 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (7.9ms)[0m  INSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["active", nil], ["created_at", Fri, 10 Jan 2014 22:46:03 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Fri, 10 Jan 2014 22:46:03 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.2ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.5ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (34.8ms)[0m  INSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["active", nil], ["created_at", Fri, 10 Jan 2014 22:48:43 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Fri, 10 Jan 2014 22:48:43 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.3ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.5ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (11.5ms)[0m  INSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["active", nil], ["created_at", Fri, 10 Jan 2014 23:26:52 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Fri, 10 Jan 2014 23:26:52 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.5ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (37.9ms)[0m  INSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["active", nil], ["created_at", Fri, 10 Jan 2014 23:31:51 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Fri, 10 Jan 2014 23:31:51 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.6ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.7ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (40.1ms)[0m  [1mINSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Fri, 10 Jan 2014 23:56:10 UTC +00:00], ["turn_number", 1], ["updated_at", Fri, 10 Jan 2014 23:56:10 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (1.2ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.4ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (39.0ms)[0m  [1mINSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Fri, 10 Jan 2014 23:59:26 UTC +00:00], ["turn_number", 1], ["updated_at", Fri, 10 Jan 2014 23:59:26 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["active", true], ["created_at", Fri, 10 Jan 2014 23:59:26 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Fri, 10 Jan 2014 23:59:26 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "storylines" SET "time_stop" = '2014-01-11 00:04:26.394630', "updated_at" = '2014-01-10 23:59:26.397740' WHERE "storylines"."id" = 6[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.5ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.4ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.4ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (43.3ms)[0m  [1mINSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:01:38 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:01:38 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["active", true], ["created_at", Sat, 11 Jan 2014 00:01:38 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:01:38 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "storylines" SET "time_stop" = '2014-01-11 00:06:38.989491', "updated_at" = '2014-01-11 00:01:38.993535' WHERE "storylines"."id" = 7[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.5ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.4ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (40.8ms)[0m  [1mINSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:02:23 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:02:23 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["active", true], ["created_at", Sat, 11 Jan 2014 00:02:23 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:02:23 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "storylines" SET "time_stop" = '2014-01-11 00:07:23.763303', "updated_at" = '2014-01-11 00:02:23.766760' WHERE "storylines"."id" = 8[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.3ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (38.5ms)[0m  [1mINSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:03:07 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:03:07 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["active", true], ["created_at", Sat, 11 Jan 2014 00:03:07 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:03:07 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.7ms)[0m  [1mUPDATE "storylines" SET "time_stop" = '2014-01-11 00:08:07.203983', "updated_at" = '2014-01-11 00:03:07.206963' WHERE "storylines"."id" = 9[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.3ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (1.6ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (10.0ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:13:36 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:13:36 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (8.6ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:16:19 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:16:19 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (1.0ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (12.5ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:19:16 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:19:16 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (8.3ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:19:37 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:19:37 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mPicture Load (1.5ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:19:37 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:19:37 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (9.6ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:20:09 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:20:09 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36mPicture Load (0.6ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:20:09 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:20:09 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.6ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.5ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:20:09 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:20:09 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["active", true], ["created_at", Sat, 11 Jan 2014 00:20:09 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:20:09 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (2.0ms)[0m  [1mUPDATE "storylines" SET "time_stop" = '2014-01-11 00:25:09.514422', "updated_at" = '2014-01-11 00:20:09.519192' WHERE "storylines"."id" = 10[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.5ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (10.6ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:22:56 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:22:56 UTC +00:00], ["user_id", nil]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36mPicture Load (0.4ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:22:56 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:22:56 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.6ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.4ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:22:56 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:22:56 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["active", true], ["created_at", Sat, 11 Jan 2014 00:22:56 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:22:56 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "storylines" SET "time_stop" = '2014-01-11 00:27:56.624653', "updated_at" = '2014-01-11 00:22:56.629379' WHERE "storylines"."id" = 11[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mStoryline Load (0.3ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.3ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (11.7ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:24:01 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:24:01 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.6ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:24:01 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:24:01 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:24:01 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:24:01 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:24:01 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:24:01 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:29:01.619018', "updated_at" = '2014-01-11 00:24:01.623332' WHERE "storylines"."id" = 12
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (10.6ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:25:37 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:25:37 UTC +00:00], ["user_id", nil]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:25:37 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:25:37 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.3ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:25:37 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:25:37 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:25:37 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:25:37 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:30:37.630849', "updated_at" = '2014-01-11 00:25:37.633594' WHERE "storylines"."id" = 13
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.6ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.6ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (7.1ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:26:00 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:26:00 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.5ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:26:00 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:26:00 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.6ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:26:01 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:26:01 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:26:01 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:26:01 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:31:01.049734', "updated_at" = '2014-01-11 00:26:01.052533' WHERE "storylines"."id" = 14
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.6ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (9.6ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:33:27 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:33:27 UTC +00:00], ["user_id", nil]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.5ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:33:27 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:33:27 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.5ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:33:27 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:33:27 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:33:27 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:33:27 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (2.9ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:38:27.847602', "updated_at" = '2014-01-11 00:33:27.852124' WHERE "storylines"."id" = 15
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.5ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.6ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (8.5ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:36:22 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:36:22 UTC +00:00], ["user_id", nil]]
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:36:22 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:36:22 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:36:22 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:36:22 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.4ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:36:22 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:36:22 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:41:22.184981', "updated_at" = '2014-01-11 00:36:22.189047' WHERE "storylines"."id" = 16
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.3ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.6ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (9.1ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:36:54 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:36:54 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:36:54 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:36:54 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.6ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (8.6ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:37:41 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:37:41 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.7ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:37:41 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:37:41 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.6ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:37:41 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:37:41 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:37:41 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:37:41 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:42:41.828951', "updated_at" = '2014-01-11 00:37:41.832154' WHERE "storylines"."id" = 17
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (10.1ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:39:10 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:39:10 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:39:10 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:39:10 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.5ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:39:10 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:39:10 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:39:10 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:39:10 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:44:10.654481', "updated_at" = '2014-01-11 00:39:10.658441' WHERE "storylines"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.5ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (8.1ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:42:11 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:42:11 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.6ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:42:11 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:42:11 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.3ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:42:11 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:42:11 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:42:11 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:42:11 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:47:11.410343', "updated_at" = '2014-01-11 00:42:11.414282' WHERE "storylines"."id" = 2
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.4ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (9.1ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:44:46 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:44:46 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.6ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:44:46 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:44:46 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:44:46 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:44:46 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:44:46 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:44:46 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:49:46.207813', "updated_at" = '2014-01-11 00:44:46.210723' WHERE "storylines"."id" = 3
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (9.6ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:45:39 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:45:39 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:45:39 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:45:39 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:45:39 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:45:39 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:45:39 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:45:39 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:50:39.177559', "updated_at" = '2014-01-11 00:45:39.181023' WHERE "storylines"."id" = 1
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.4ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (8.9ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:48:49 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:48:49 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:48:49 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:48:49 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.3ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:48:49 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:48:49 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:48:49 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:48:49 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:53:49.207175', "updated_at" = '2014-01-11 00:48:49.210576' WHERE "storylines"."id" = 1
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.4ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (10.1ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:52:54 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:52:54 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.6ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:52:55 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:52:55 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.5ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:52:55 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:52:55 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:52:55 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:52:55 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:57:55.169318', "updated_at" = '2014-01-11 00:52:55.174168' WHERE "storylines"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (10.1ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:54:32 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:54:32 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:54:32 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:54:32 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.3ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:54:32 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:54:32 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:54:32 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:54:32 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 00:59:32.369294', "updated_at" = '2014-01-11 00:54:32.374461' WHERE "storylines"."id" = 1
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.6ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.5ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:55:29 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Sat, 11 Jan 2014 00:55:29 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (1.2ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "players" SET "phone_number" = '+14083072406', "updated_at" = '2014-01-11 00:55:30.933635' WHERE "players"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (8.7ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:55:45 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:55:45 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:55:46 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:55:46 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.3ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:55:46 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:55:46 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:55:46 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:55:46 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (1.2ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 01:00:46.144288', "updated_at" = '2014-01-11 00:55:46.148575' WHERE "storylines"."id" = 1
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.6ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:55:46 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Sat, 11 Jan 2014 00:55:46 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.9ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "players" SET "phone_number" = '+14083072406', "updated_at" = '2014-01-11 00:55:46.176898' WHERE "players"."id" = 1[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (9.8ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:57:01 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:57:01 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.7ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.9ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:57:01 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:57:01 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:57:01 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Sat, 11 Jan 2014 00:57:01 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (1.0ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "players" SET "phone_number" = '+14083072406', "updated_at" = '2014-01-11 00:57:01.850455' WHERE "players"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.8ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (1.2ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:57:01 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:57:01 UTC +00:00], ["user_id", nil]]
+  [1m[36m (1.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:57:01 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:57:01 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (4.9ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 01:02:01.897936', "updated_at" = '2014-01-11 00:57:01.902940' WHERE "storylines"."id" = 1
+  [1m[36m (0.4ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (1.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (1.7ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (1.8ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (10.5ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 00:59:35 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 00:59:35 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:59:35 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 00:59:35 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:59:35 UTC +00:00], ["email", nil], ["name", "Max"], ["phone_number", nil], ["updated_at", Sat, 11 Jan 2014 00:59:35 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.8ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:59:36 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14083072406"], ["updated_at", Sat, 11 Jan 2014 00:59:36 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (1.8ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:59:36 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Sat, 11 Jan 2014 00:59:36 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 00:59:36 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 00:59:36 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 00:59:36 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 00:59:36 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 01:04:36.060910', "updated_at" = '2014-01-11 00:59:36.065008' WHERE "storylines"."id" = 1
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.5ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.4ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.6ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (8.1ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:00:59 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 01:00:59 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.0ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:00:59 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 01:00:59 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:00:59 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 01:00:59 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 01:00:59 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 01:00:59 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 01:05:59.774784', "updated_at" = '2014-01-11 01:00:59.778033' WHERE "storylines"."id" = 2
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.4ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (6.0ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:01:34 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 01:01:34 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.2ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.6ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:01:34 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 01:01:34 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.3ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:01:34 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 01:01:34 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 01:01:34 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 01:01:34 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 01:06:34.833631', "updated_at" = '2014-01-11 01:01:34.837769' WHERE "storylines"."id" = 3
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.8ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (9.7ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:01:52 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 01:01:52 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.1ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+Connecting to database specified by database.yml
+  [1m[36mPicture Load (0.4ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (5.9ms)[0m  [1mINSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:02:09 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 01:02:09 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.1ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mPicture Load (0.5ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (6.3ms)[0m  [1mINSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:02:59 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 01:02:59 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.0ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mPicture Load (0.5ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (6.1ms)[0m  [1mINSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:03:35 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 01:03:35 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPicture Load (0.4ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+Connecting to database specified by database.yml
+  [1m[36mPicture Load (0.6ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (7.7ms)[0m  [1mINSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:07:19 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 01:07:19 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mPicture Load (0.5ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (6.4ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:13:00 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 01:13:00 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.5ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:13:00 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 01:13:00 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:13:00 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Sat, 11 Jan 2014 01:13:00 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.5ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:13:00 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 01:13:00 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 01:13:00 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 01:13:00 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 01:18:00.333051', "updated_at" = '2014-01-11 01:13:00.336786' WHERE "storylines"."id" = 4
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.5ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.4ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (8.7ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:13:17 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Sat, 11 Jan 2014 01:13:17 UTC +00:00]]
+  [1m[35m (7.3ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (7.9ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:18:49 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 01:18:49 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:18:49 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 01:18:49 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.3ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:18:49 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Sat, 11 Jan 2014 01:18:49 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" [0m
+Connecting to database specified by database.yml
+  [1m[36mPicture Load (0.5ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (25.8ms)[0m  [1mINSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:29:43 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 01:29:43 UTC +00:00], ["user_id", nil]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36mPicture Load (0.6ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (10.1ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.5ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 8]]
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14083072406"], ["updated_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["email", nil], ["name", "Max"], ["phone_number", nil], ["updated_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 10]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.8ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (1.1ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["turn_number", 1], ["updated_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Sat, 11 Jan 2014 01:36:24 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-11 01:41:24.563787', "updated_at" = '2014-01-11 01:36:24.567059' WHERE "storylines"."id" = 5
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.3ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (8.6ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 13 Jan 2014 01:18:57 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 13 Jan 2014 01:18:57 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.6ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (6.5ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.0ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["turn_number", 1], ["updated_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (1.7ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-01-13 01:25:25.296430', "updated_at" = '2014-01-13 01:20:25.300914' WHERE "storylines"."id" = 6
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14083072406"], ["updated_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 13]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00], ["email", nil], ["name", "Max"], ["phone_number", nil], ["updated_at", Mon, 13 Jan 2014 01:20:25 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (2.0ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (11.4ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:43:39 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 03 Feb 2014 19:43:39 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.3ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (1.5ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:43:39 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 03 Feb 2014 19:43:39 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (1.6ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:43:39 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Mon, 03 Feb 2014 19:43:39 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (6.2ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:44:45 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 03 Feb 2014 19:44:45 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.0ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.6ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:44:45 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 03 Feb 2014 19:44:45 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:44:45 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Mon, 03 Feb 2014 19:44:45 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (7.5ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:46:14 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 03 Feb 2014 19:46:14 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.1ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.5ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:46:14 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 03 Feb 2014 19:46:14 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.5ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (1.6ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (1.3ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00], ["turn_number", 1], ["updated_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-02-03 19:51:15.173917', "updated_at" = '2014-02-03 19:46:15.178291' WHERE "storylines"."id" = 7
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14083072406"], ["updated_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00], ["email", nil], ["name", "Max"], ["phone_number", nil], ["updated_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Mon, 03 Feb 2014 19:46:15 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/posts" for 127.0.0.1 at 2014-02-03 11:46:15 -0800
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (6.7ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:47:05 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 03 Feb 2014 19:47:05 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.1ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.6ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.6ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.5ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/posts" for 127.0.0.1 at 2014-02-03 11:47:06 -0800
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.5ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00], ["turn_number", 1], ["updated_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-02-03 19:52:06.188245', "updated_at" = '2014-02-03 19:47:06.192446' WHERE "storylines"."id" = 8
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00], ["email", nil], ["name", "Max"], ["phone_number", nil], ["updated_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14083072406"], ["updated_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Mon, 03 Feb 2014 19:47:06 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 24]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.7ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (5.9ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.2ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.7ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.5ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.6ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["turn_number", 1], ["updated_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-02-03 19:52:46.581778', "updated_at" = '2014-02-03 19:47:46.584938' WHERE "storylines"."id" = 9
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.3ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.2ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["email", nil], ["name", "Max"], ["phone_number", nil], ["updated_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (1.0ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 26]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14083072406"], ["updated_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 27]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Mon, 03 Feb 2014 19:47:46 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 28]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.0ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.6ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["email", nil], ["name", "Max"], ["phone_number", nil], ["updated_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.8ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14083072406"], ["updated_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 31]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 32]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.7ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.3ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["turn_number", 1], ["updated_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Mon, 03 Feb 2014 19:48:43 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-02-03 19:53:43.220152', "updated_at" = '2014-02-03 19:48:43.223058' WHERE "storylines"."id" = 10
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (7.3ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:50:56 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 03 Feb 2014 19:50:56 UTC +00:00], ["user_id", nil]]
+  [1m[35m (7.2ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.6ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:50:56 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 03 Feb 2014 19:50:56 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.5ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 19:50:56 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Mon, 03 Feb 2014 19:50:56 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.5ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 19:50:56 UTC +00:00], ["turn_number", 1], ["updated_at", Mon, 03 Feb 2014 19:50:56 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Mon, 03 Feb 2014 19:50:56 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Mon, 03 Feb 2014 19:50:56 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-02-03 19:55:56.769740', "updated_at" = '2014-02-03 19:50:56.772988' WHERE "storylines"."id" = 11
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (1.1ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (9.6ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:46:42 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 03 Feb 2014 22:46:42 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.5ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 22:46:42 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 03 Feb 2014 22:46:42 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:46:42 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Mon, 03 Feb 2014 22:46:42 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 22:46:42 UTC +00:00], ["turn_number", 1], ["updated_at", Mon, 03 Feb 2014 22:46:42 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Mon, 03 Feb 2014 22:46:42 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Mon, 03 Feb 2014 22:46:42 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-02-03 22:51:42.497517', "updated_at" = '2014-02-03 22:46:42.500220' WHERE "storylines"."id" = 12
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.6ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.4ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mStoryline Load (0.4ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (46.3ms)[0m  [1mINSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:46:59 UTC +00:00], ["turn_number", 1], ["updated_at", Mon, 03 Feb 2014 22:46:59 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["active", true], ["created_at", Mon, 03 Feb 2014 22:46:59 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Mon, 03 Feb 2014 22:46:59 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "storylines" SET "time_stop" = '2014-02-03 22:51:59.246818', "updated_at" = '2014-02-03 22:46:59.250411' WHERE "storylines"."id" = 13[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.3ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36mPicture Load (0.5ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (6.5ms)[0m  [1mINSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:47:15 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 03 Feb 2014 22:47:15 UTC +00:00], ["user_id", nil]]
+  [1m[35m (6.9ms)[0m  COMMIT
+  [1m[36mPicture Load (0.4ms)[0m  [1mSELECT "pictures".* FROM "pictures" [0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (6.5ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:47:29 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 03 Feb 2014 22:47:29 UTC +00:00], ["user_id", nil]]
+  [1m[35m (6.9ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.6ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (12.2ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:49:07 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 03 Feb 2014 22:49:07 UTC +00:00], ["user_id", nil]]
+  [1m[35m (6.9ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 22:49:07 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 03 Feb 2014 22:49:07 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:49:07 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Mon, 03 Feb 2014 22:49:07 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.4ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.3ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 22:49:08 UTC +00:00], ["turn_number", 1], ["updated_at", Mon, 03 Feb 2014 22:49:08 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Mon, 03 Feb 2014 22:49:08 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Mon, 03 Feb 2014 22:49:08 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-02-03 22:54:08.098199', "updated_at" = '2014-02-03 22:49:08.101890' WHERE "storylines"."id" = 14
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.3ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:49:08 UTC +00:00], ["email", nil], ["name", "Max"], ["phone_number", nil], ["updated_at", Mon, 03 Feb 2014 22:49:08 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:49:08 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14083072406"], ["updated_at", Mon, 03 Feb 2014 22:49:08 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:49:08 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Mon, 03 Feb 2014 22:49:08 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPlayer Load (1.1ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 38]]
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (7.0ms)[0m  [1mINSERT INTO "phrases" ("created_at", "storyline_id", "text", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["storyline_id", 2], ["text", "test phrase"], ["updated_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" [0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "pictures" ("created_at", "image", "storyline_id", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["image", "an insanely long string"], ["storyline_id", 2], ["updated_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" 
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["email", "test@example.com"], ["name", nil], ["phone_number", "+15108477006"], ["updated_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14083072406"], ["updated_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.8ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["email", nil], ["name", "Max"], ["phone_number", nil], ["updated_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "players" ("created_at", "email", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["email", nil], ["name", nil], ["phone_number", "+14151234567"], ["updated_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mStoryline Load (0.3ms)[0m  [1mSELECT "storylines".* FROM "storylines" [0m
+  [1m[35mTurn Load (0.4ms)[0m  SELECT "turns".* FROM "turns" 
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "turns" ("created_at", "turn_number", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["turn_number", 1], ["updated_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "storylines" ("active", "created_at", "story_name", "time_stop", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["active", true], ["created_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["story_name", "test"], ["time_stop", nil], ["updated_at", Mon, 03 Feb 2014 22:50:15 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  UPDATE "storylines" SET "time_stop" = '2014-02-03 22:55:15.695855', "updated_at" = '2014-02-03 22:50:15.699416' WHERE "storylines"."id" = 1
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mStoryline Load (0.3ms)[0m  SELECT "storylines".* FROM "storylines" 
+  [1m[36mTurn Load (0.3ms)[0m  [1mSELECT "turns".* FROM "turns" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK

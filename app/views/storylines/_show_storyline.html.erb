@@ -1,0 +1,11 @@
+<div class="input-group">
+  <h1><%= @storyline.story_name %></h1>
+    <% @pictures = Picture.where(storyline_id: @storyline.id) %>
+    <% @phrases = Phrase.where(storyline_id: @storyline.id) %>
+    <% @pictures.each_with_index do |picture, index| %>
+      <img src='<%= picture.image %>'>
+      <h3><%= @phrases[index].text %></h3>
+    <% end %>
+
+</div>
+<%= link_to "Back", root_path %>

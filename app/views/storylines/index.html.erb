@@ -1,0 +1,33 @@
+<div class="container">
+<% if current_user %>
+		<% if params["list"] == "true" %>
+ 		<div id="all_storylines">
+			<%= render 'all_storylines' %>
+	  </div>
+  <% else %>
+		<div id="new_phrases">
+			<!-- append newly created phrase -->
+		</div>
+		<div id="new_drawings">
+			<!-- append newly created storyline -->
+		</div>
+		<% if @turn == nil || @turn.odd? %>
+		<div id="drawings">
+			<% if Picture.last %>
+		  	<img src="<%= Picture.last.image %>">
+		  <% end %>
+		</div>
+		<%= render partial: 'phrase_form' %>
+
+	<% elsif @turn.even? && @turn != 0 %>
+		<h4><small>Draw a picture to describe the phrase below:</small></h4>
+		<div id="phrases">
+			<h4 class="subheader"><% if Phrase.last %>
+		  	<%= Phrase.last.text %></h4>
+		  <% end %>
+		</div>
+		<%= render partial: 'picture_form' %>
+    <% end %>
+  <% end %>
+<% end %>	
+</div>

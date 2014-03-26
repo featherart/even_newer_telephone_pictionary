@@ -1,0 +1,26 @@
+<div class="input-group">
+  <div id="storyline_form">
+<% @storyline = Storyline.new %>
+<%= form_for(@storyline) do |f| %>
+<%= f.text_field :story_name, placeholder: "please enter a name for this story", required: true, autofocus: true %>
+<br>
+</div>
+<div class="hide" id="players_form" style="visibility:hidden;">  
+
+    <%= fields_for Player.new do |p| %>  
+    <%= p.text_field :name, placeholder: "enter player's name" %>
+    <%= p.text_field :email, placeholder: "enter player's email address" %>
+    <%= hidden_field_tag :storyline_id, @storyline.id %>
+    <!-- <#%= p.text_field :phone_number, placeholder: "enter player's text number", required: true %> -->
+    <!-- <%#= p.link_to_add "Add a player", :player %> -->
+  <% end %><br>
+</div>
+  <button type="submit" action="javascript;" id="add_player" class="btn btn-default">add player</button>
+  <button type="submit" id="submit_button" id="submit_storyline" class="btn btn-default">send it</button>
+ 
+
+<% end %>
+</div>
+<div style="margin-top: 30px;">
+<%= link_to 'back', root_path %>
+</div>
