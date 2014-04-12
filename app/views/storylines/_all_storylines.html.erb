@@ -1,7 +1,7 @@
 <div class="input-group">
 <ul>
   <% @storylines.each do |storyline| %>
-    <li><%= link_to "#{storyline.story_name} created on #{storyline.created_at}", storyline %>
+    <li><%= link_to "#{storyline.story_name} created on #{storyline.created_at.to_time.strftime('%B %e at %l:%M %p')}", storyline %>
     </li>
   <% end %>
 </ul>
