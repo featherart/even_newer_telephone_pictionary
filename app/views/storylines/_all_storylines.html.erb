@@ -1,8 +1,11 @@
 <div class="input-group">
 <ul>
   <% @storylines.each do |storyline| %>
-    <li><%= link_to "#{storyline.story_name} created on #{storyline.created_at.to_time.strftime('%B %e at %l:%M %p')}", storyline %>
-    </li>
+  <% name = storyline.story_name.capitalize if storyline.story_name %>
+    <li>
+      <h4><small><%= link_to "#{name}", storyline %></small></h4>
+      <h5><small>created at <%= "#{storyline.created_at.to_time.strftime('%B %e at %l:%M %p')}" %></h5></small>
+  </li>
   <% end %>
 </ul>
 </div>
