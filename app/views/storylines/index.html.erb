@@ -1,7 +1,11 @@
 <!-- display storylines -->
-<% if params["list"] == "true" %>
+<% if params["list"] %>
 	<div id="all_storylines">
 	<%= render 'all_storylines' %>
+	</div>
+<% elsif params["esplain"] %>
+	<div id="esplain">
+		<%= render 'esplain' %>
 	</div>
 <% else %>
 	<div id="new_phrases">

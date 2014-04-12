@@ -8,7 +8,7 @@ TelephonePictionary.Picture = {
     $("#color_drawing").hide();
     $("#phrases").hide();
     $("#picture-instructions").hide();
-    $("#new_drawings").append("<h4><small>Your picture is below!</small><span class='glyphicon glyphicon-share'></span></h4><br /><img src='"+$("#picture_image").val() +"' />");
+    $("#new_drawings").append("<h4><small>Your picture is below!</small> <span class='glyphicon glyphicon-share'></span></h4><br /><img src='"+$("#picture_image").val() +"' />");
   }
 };
 

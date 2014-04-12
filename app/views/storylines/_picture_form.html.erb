@@ -1,19 +1,23 @@
  <div class="input-group">
-  <!-- begin sketch experiment -->
+  <!-- begin sketch -->
   <div id='color_drawing'>
     <div class='tools'>
     </div>
     <canvas id='drawing' width='400' height='300'></canvas>
   </div>
-  <!-- end sketch experiment -->
+  <!-- end sketch -->
  
   <%= form_for(@picture) do |f| %>
     <%= f.hidden_field :image %>
     <%= hidden_field_tag :storyline_id, @storyline.id %>
     <%= hidden_field_tag :turn_number, @turn %>
     <%#= hidden_field_tag :user_id, current_user.id %>
-    <button type="button" id="clear" class="btn btn-default"><span class="glyphicon glyphicon-fast-backward"> start over</span></button>
-    <button type="submit" id="submit_button" class="btn btn-default"><span class="glyphicon glyphicon-plus"> add picture</span></button>
+    <button type="button" id="clear" class="btn btn-default">
+      <span class="glyphicon glyphicon-fast-backward"> start over</span>
+    </button>
+    <button type="submit" id="submit_button" class="btn btn-default">
+      <span class="glyphicon glyphicon-plus"> add picture</span>
+    </button>
   <% end %>
 </div>
 
