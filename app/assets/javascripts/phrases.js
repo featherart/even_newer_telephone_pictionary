@@ -5,7 +5,8 @@ TelephonePictionary.Phrase = {
     console.log(data);
     console.log("successfully created a phrase");
     $("#new_phrase").hide();
-    $("#new_phrases").append("<h4><small>Your phrase is below! Please log out now.</small></h4><br /><h4 class='subheader'>"+ $("#phrase_text").val() +"</h4>");
+    $("#phrase_instructions").hide();
+    $("#new_phrases").append('<h4><small>Your phrase is below! <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-type="button_count"></div></small></h4><br /><h4 class="subheader">'+ $("#phrase_text").val() +"</h4>");
   }
 };
 

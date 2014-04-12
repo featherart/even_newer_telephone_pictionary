@@ -6,10 +6,13 @@
  *= require_tree .
 */
 @import 'bootstrap';
-
+input[type="text"] {
+    width: 400px;
+    padding-bottom: 30px;
+}
 canvas 
 {
-  border: 1px solid;
+  border: 3px solid;
   cursor: crosshair;
   display: block;
 }

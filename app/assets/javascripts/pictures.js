@@ -6,7 +6,9 @@ TelephonePictionary.Picture = {
     console.log("successfully created a picture");
     $("#new_picture").hide();
     $("#color_drawing").hide();
-    $("#new_drawings").append("<h4><small>Your picture is below! Please log out now.</small></h4><br /><img src='"+$("#picture_image").val() +"' />");
+    $("#phrases").hide();
+    $("#picture-instructions").hide();
+    $("#new_drawings").append("<h4><small>Your picture is below!</small><span class='glyphicon glyphicon-share'></span></h4><br /><img src='"+$("#picture_image").val() +"' />");
   }
 };
 
@@ -31,7 +33,7 @@ $(function() {
   });
 
   $.each(['#f00', '#ff0', '#0f0', '#0ff', '#00f', '#f0f', '#000', '#fff'], function() {
-    $('#color_drawing .tools').append("<a href='#drawing' data-color='" + this + "' style='width: 10px; background: " + this + ";'>☆</a> ");
+    $('#color_drawing .tools').append("<a href='#drawing' data-color='" + this + "' style='width: 10px; background: " + this + ";'></a> ");
   });
   $.each([3, 5, 10], function() {
     $('#color_drawing .tools').append("<a href='#drawing' data-size='" + this + "' style='background: #ccc'>" + this + "</a> ");

@@ -1,17 +1,21 @@
-<div class="container">
+<!-- display storylines -->
+<% if params["list"] == "true" %>
+	<div id="all_storylines">
+	<%= render 'all_storylines' %>
+	</div>
+<% else %>
+	<div id="new_phrases">
+		<!-- append newly created phrase -->
+	</div>
+	<div id="new_drawings">
+		<!-- append newly created storyline -->
+	</div>
 
-		<% if params["list"] == "true" %>
- 		<div id="all_storylines">
-			<%= render 'all_storylines' %>
-	  </div>
-  <% else %>
-		<div id="new_phrases">
-			<!-- append newly created phrase -->
+	<!-- otherwise render form to add a phrase or a picture -->
+	<% if @turn == nil || @turn.odd? %>
+		<div id="phrase-instructions">
+			<h4><small><span class="glyphicon glyphicon-pencil"></span> Write a phrase to describe the picture below:</small></h4>
 		</div>
-		<div id="new_drawings">
-			<!-- append newly created storyline -->
-		</div>
-		<% if @turn == nil || @turn.odd? %>
 		<div id="drawings">
 			<% if Picture.last %>
 		  	<img src="<%= Picture.last.image %>">
@@ -20,14 +24,25 @@
 		<%= render partial: 'phrase_form' %>
 
 	<% elsif @turn.even? && @turn != 0 %>
-		<h4><small>Draw a picture to describe the phrase below:</small></h4>
+		<div id="picture-instructions">
+			<h4><small><span class="glyphicon glyphicon-picture"></span> Draw a picture to describe the phrase below:</small></h4>
+		</div>
 		<div id="phrases">
-			<h4 class="subheader"><% if Phrase.last %>
+			<h4 class="subheader">
+			<% if Phrase.last %>
 		  	<%= Phrase.last.text %></h4>
 		  <% end %>
 		</div>
 		<%= render partial: 'picture_form' %>
-    <% end %>
-  <% end %>
-	
-</div>
+	<% end %>
+<% end %>
+
+<!-- try to add like button for facebook -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
