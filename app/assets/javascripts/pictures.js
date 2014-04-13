@@ -9,7 +9,8 @@ TelephonePictionary.Picture = {
     $("#phrases").hide();
     $("#picture_instructions").hide();
     $("#new_drawings").append("<h4><small>Your picture is below</small> </h4><br /><img src='"+$("#picture_image").val() +"' />");
-    $("#further").append("<h4><small>You are the next Picasso!</small> </h4>");
+    $("#further").append("<h4><small>You are the next Picasso! </small> </h4>");
+    $("#further").append("<span class='glyphicon glyphicon-send'></span> <a href='http://telephone-pictionary.herokuapp.com/'>share this url</a> to play with a friend.");
 
   }
 };

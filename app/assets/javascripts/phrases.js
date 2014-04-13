@@ -6,12 +6,14 @@ TelephonePictionary.Phrase = {
     console.log("successfully created a phrase");
     $("#new_phrase").hide();
     $("#phrase_instructions").hide();
-    $("#new_phrases").append('<h4><small>Your phrase is below! <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-type="button_count"></div></small></h4><br /><h4 class="subheader">'+ $("#phrase_text").val() +"</h4>");
+    $("#new_phrases").append('<h4><small>Your phrase is below </h4></small><h4 class="subheader">'+ $("#phrase_text").val() +"</h4>");
+    // $("#further").append("<h4><small>You are a wizard of wordcraft! </small> </h4>");
+    $("#further").append("<span class='glyphicon glyphicon-send'></span> <a href='http://telephone-pictionary.herokuapp.com/'>share this url</a> to play with a friend.");
   }
 };
 
 $(function() {
-  console.log("in phrases");
+  
   $form = $("#new_phrase");
 
   $form.on("submit", function(event) {
