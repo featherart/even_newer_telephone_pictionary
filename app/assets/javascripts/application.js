@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require sketch
+//= require social-share-button
 //= require_self
 //= require_tree .
 
