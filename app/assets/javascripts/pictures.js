@@ -8,8 +8,9 @@ TelephonePictionary.Picture = {
     $("#color_drawing").hide();
     $("#phrases").hide();
     $("#picture_instructions").hide();
-    //$("#phrase_instructions").hide();
     $("#new_drawings").append("<h4><small>Your picture is below!</small> <span class='glyphicon glyphicon-share'></span></h4><br /><img src='"+$("#picture_image").val() +"' />");
+    $("#further").append("<div class='fb-share-button' data-href='https://developers.facebook.com/docs/plugins/' data-type='button_count'>Share on facebook</div>");
+
   }
 };
 
