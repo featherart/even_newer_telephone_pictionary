@@ -7,6 +7,16 @@
  *= require_tree .
 */
 @import 'bootstrap';
+#esplain_text
+{
+  max-width: 450px;
+  padding-bottom: 30px;
+  margin: 10px;
+}
+.social-share-button
+{
+  text-align: center;
+}
 canvas 
 {
   border: 3px solid;

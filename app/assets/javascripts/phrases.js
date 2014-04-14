@@ -7,8 +7,9 @@ TelephonePictionary.Phrase = {
     $("#new_phrase").hide();
     $("#phrase_instructions").hide();
     $("#new_phrases").append('<h4><small>Your phrase is below </h4></small><h4 class="subheader">'+ $("#phrase_text").val() +"</h4>");
-    // $("#further").append("<h4><small>You are a wizard of wordcraft! </small> </h4>");
-    $("#further").append("<span class='glyphicon glyphicon-send'></span> <a href='http://telephone-pictionary.herokuapp.com/'>share this url</a> to play with a friend.");
+    $("footer").append("<h4><small>You are a wizard of wordcraft! </small> </h4>");
+    $("footer").append('<button class="btn btn-default"><a href="/">next play</a></button><br>');
+    $("footer").append("<span class='glyphicon glyphicon-send'></span> <a href='http://telephone-pictionary.herokuapp.com/'>share this url</a> to play with a friend. </br>");
   }
 };
 
