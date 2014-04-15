@@ -9,12 +9,10 @@
 @import 'bootstrap';
 #esplain_text
 {
-  max-width: 450px;
   padding-bottom: 30px;
-  margin: 10px;
-  img {
-    width: 30%;
-  }
+}
+.media-object {
+  width: 30%;
 }
 .social-share-button
 {
