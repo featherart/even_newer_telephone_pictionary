@@ -23,6 +23,10 @@
   padding-bottom: 30px;
   max-width: 60%;
 }
+#new_phrases
+{
+  max-width: 60%;
+}
 .social-share-button
 {
   padding-top: 15px;
