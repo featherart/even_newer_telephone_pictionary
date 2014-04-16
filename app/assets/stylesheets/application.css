@@ -23,9 +23,13 @@
   padding-bottom: 30px;
   max-width: 60%;
 }
-#new_phrases
+#phrases
 {
   max-width: 60%;
+}
+#drawings
+{
+  max-width: 80%;
 }
 .social-share-button
 {
