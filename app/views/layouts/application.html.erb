@@ -37,7 +37,7 @@
     <%= javascript_include_tag "application" %>
   </head>
   <body>
-    <div class="navbar navbar-fluid-top">
+    <div class="navbar navbar-fluid-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container-fluid">
           <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
@@ -48,9 +48,15 @@
           <a class="brand" href="#">TelephonePictionary</a>
           <div class="container-fluid nav-collapse">
             <ul class="nav">
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
+              <% if current_user %>
+            <li><%= link_to "Hello #{current_user.name}", "#" %></li>
+            <li><%= link_to "Sign out", signout_path %></li>
+          <% else %>
+            <li><%= link_to "Sign in with Facebook to share", "/auth/facebook" %></li>
+          <% end %>
+          <!-- <li><%#= link_to "Create New Storyline", new_storyline_path %></li> -->
+          <li><%= link_to "See Storylines", root_path(list: true) %></li>
+          <li><%= link_to "What is TelephonePictionary?", root_path(esplain: true) %></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
