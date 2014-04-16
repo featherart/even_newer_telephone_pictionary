@@ -4,7 +4,7 @@ class StorylinesController < ApplicationController
   	@storylines = Storyline.all
     @active_or_new = false
     @storyline = Storyline.last
-    @turn = Turn.last.turn_number
+    @turn = Turn.last.turn_number ||= 1
 
   	@phrase = Phrase.new
   	@picture = Picture.new
