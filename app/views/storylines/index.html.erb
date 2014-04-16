@@ -7,6 +7,10 @@
 	<div id="esplain">
 		<%= render 'esplain' %>
 	</div>
+<% elsif params["show_story"] %>
+	<div id="show_stories">
+		<%= render 'show_storyline' %>
+	</div>
 <% else %>
 	<div id="new_phrases">
 		<!-- append newly created phrase -->

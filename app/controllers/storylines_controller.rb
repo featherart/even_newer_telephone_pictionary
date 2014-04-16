@@ -33,10 +33,9 @@ class StorylinesController < ApplicationController
       format.js
     end
   end
-  # do an ajax call then render the partial that displays a story
+  
   def show 
   	@storyline = Storyline.find(params[:id])
-
     render partial: 'show_storyline'
   end
 

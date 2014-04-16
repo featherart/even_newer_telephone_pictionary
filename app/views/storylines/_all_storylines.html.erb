@@ -2,8 +2,11 @@
 <ul class="fa-ul">
   <% @storylines.each do |storyline| %>
     <% name = storyline.story_name.capitalize if storyline.story_name %>
-    <li id="<%= storyline.id %>"><i class="fa fa-cog fa-spin"></i> <%= link_to "#{name}", storyline %>
-      <h5><small>created on <%= "#{storyline.created_at.to_time.strftime('%B %e at %l:%M %p')}" %></h5></small>
+    <li data-id="<%= storyline.id %>"><i class="fa fa-cog fa-spin"></i> 
+      <%= link_to "#{name}", "/?show_story=true" %>
+      
+      <h5><small>created on <%= "#{storyline.created_at.to_time.strftime('%B %e at %l:%M %p')}" %>
+      </h5></small>
   </li>
   <% end %>
 
