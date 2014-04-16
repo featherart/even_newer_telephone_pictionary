@@ -8,9 +8,11 @@ gem 'unicorn'
 gem 'figaro'
 gem 'omniauth-facebook'
 gem 'therubyracer'
+
 gem 'less-rails'
-gem 'bootstrap-sass', '3.0.3.0'
+gem 'twitter-bootstrap-rails'
 gem 'font-awesome-rails'
+
 gem 'social-share-button'
 
 
@@ -21,7 +23,6 @@ group :development, :test do
   gem 'sms-spec'
   gem 'shoulda-matchers'
   gem 'jasmine'
-  #gem 'jasmine-jquery-rails'
 end
 
 group :assets do

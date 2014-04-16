@@ -240,3 +240,69 @@ Compiled storylines.js  (0ms)  (pid 3831)
 Compiled application.js  (281ms)  (pid 3831)
 Compiled bootstrap_and_overrides.css  (772ms)  (pid 3831)
 Compiled application.css  (819ms)  (pid 3831)
+Compiled jquery.js  (1ms)  (pid 24411)
+Compiled jquery_ujs.js  (0ms)  (pid 24411)
+Compiled bootstrap/affix.js  (0ms)  (pid 24411)
+Compiled bootstrap/alert.js  (0ms)  (pid 24411)
+Compiled bootstrap/button.js  (0ms)  (pid 24411)
+Compiled bootstrap/carousel.js  (0ms)  (pid 24411)
+Compiled bootstrap/collapse.js  (0ms)  (pid 24411)
+Compiled bootstrap/dropdown.js  (0ms)  (pid 24411)
+Compiled bootstrap/tab.js  (0ms)  (pid 24411)
+Compiled bootstrap/transition.js  (0ms)  (pid 24411)
+Compiled bootstrap/scrollspy.js  (0ms)  (pid 24411)
+Compiled bootstrap/modal.js  (0ms)  (pid 24411)
+Compiled bootstrap/tooltip.js  (0ms)  (pid 24411)
+Compiled bootstrap/popover.js  (0ms)  (pid 24411)
+Compiled bootstrap.js  (140ms)  (pid 24411)
+Compiled sketch.js  (0ms)  (pid 24411)
+Compiled social-share-button.js  (95ms)  (pid 24411)
+Compiled bootstrap_and_overrides.js  (5ms)  (pid 24411)
+Compiled phrases.js  (0ms)  (pid 24411)
+Compiled pictures.js  (0ms)  (pid 24411)
+Compiled players.js  (0ms)  (pid 24411)
+Compiled storylines.js  (0ms)  (pid 24411)
+Compiled application.js  (368ms)  (pid 24411)
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6b33d72155011c5c5638d3d5fb8ee3240d3ff71d/application.css.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/7088a82de3e03bd911387d129c100eb57686d7ec/bootstrap.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/bootstrap.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_variables.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_mixins.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_normalize.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_print.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_scaffolding.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_type.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_code.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_grid.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_tables.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_forms.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_buttons.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_component-animations.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_glyphicons.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_dropdowns.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_button-groups.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_input-groups.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_navs.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_navbar.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_pagination.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_pager.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_labels.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_badges.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_jumbotron.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_thumbnails.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_alerts.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_progress-bars.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_media.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_list-group.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_panels.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_wells.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_close.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_modals.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_tooltip.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_popovers.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_carousel.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_utilities.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/6f66df2bbd1c7522d73440a4c091dcabb945cd64/_responsive-utilities.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Warning. Error encountered while saving cache /Users/lisafeatherknee/workspace/do_stuff/telephone_pictionary/tmp/cache/sass/31dfc83f9799861e1a3c9ade65600ffb483eeb12/social-share-button.scssc: can't dump anonymous class #<Class:0x007fa9fc3f59f0>
+Compiled social-share-button.css  (63ms)  (pid 24411)
