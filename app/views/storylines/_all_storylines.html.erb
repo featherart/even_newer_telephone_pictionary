@@ -1,13 +1,16 @@
 <div class="input-group">
-<ul>
+<ul class="fa-ul">
   <% @storylines.each do |storyline| %>
   <% name = storyline.story_name.capitalize if storyline.story_name %>
-    <li>
-      <h4><small><%= link_to "#{name}", storyline %></small></h4>
-      <h5><small>created at <%= "#{storyline.created_at.to_time.strftime('%B %e at %l:%M %p')}" %></h5></small>
+    <li><i class="fa fa-cog fa-spin"></i> <%= link_to "#{name}", storyline %>
+      <h5><small>created on <%= "#{storyline.created_at.to_time.strftime('%B %e at %l:%M %p')}" %></h5></small>
   </li>
   <% end %>
-</ul>
-</div>
-<%= link_to "Back", root_path %>
 
+    <button class="btn btn-success">
+      <i class="fa fa-phone-square"></i> 
+      <i class="fa fa-picture-o"></i> 
+      <%= link_to " play ", root_path %>
+    </button>
+  </ul>
+</div>
