@@ -4,15 +4,12 @@
     <div id="esplain_text">
       It starts with a phrase composed by the first player. The next player then adds a picture to illustrate the phrase. They pass this picture to the next player, who composes a phrase describing the picture. Each player only sees the picture or phrase that came before. The cycle continues. Eventually you have a somewhat random storyline composed of phrases and pictures.
     </div>
-
-  <button class="btn btn-success">
+  <button id="play_button" class="btn btn-success">
     <i class="fa fa-phone-square"></i> 
-    <i class="fa fa-picture-o"></i> 
-    <%= link_to " play ", "/" %>
+    <i class="fa fa-picture-o"></i> play 
   </button>
-  <button class="btn btn-default">
-    <i class="fa fa-book"></i>  
-    <%= link_to " see stories ", root_path(list: true) %>
+  <button id="story_button" class="btn btn-default">
+    <i class="fa fa-book"></i> see stories
   </button>
   </div>
 </div>

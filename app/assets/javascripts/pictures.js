@@ -11,7 +11,7 @@ TelephonePictionary.Picture = {
     $("#new_drawings").append("<h4><small>Your picture is below</small> </h4><br /><img src='"+$("#picture_image").val() +"' />");
     $("footer").append("<h4><small>You are the next Picasso! </small> </h4>");   
     $("footer").append('<button class="btn btn-default"><a href="/">next play</a></button><br>');
-    $("footer").append("<span class='glyphicon glyphicon-send'></span> <a href='http://telephone-pictionary.herokuapp.com/'>share this url</a> to play with a friend.");
+    $("footer").append("<i class='fa fa-smile-o'></i> <a href='http://tele-pictionary.herokuapp.com/'>share this url</a> to play with a friend.");
 
   }
 };

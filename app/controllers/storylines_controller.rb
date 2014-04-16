@@ -3,7 +3,7 @@ class StorylinesController < ApplicationController
   def index
   	@storylines = Storyline.all
     @active_or_new = false
-    @storyline = Storyline.last
+    @storyline = Storyline.last 
     @turn = Turn.last.turn_number ||= 1
 
   	@phrase = Phrase.new
@@ -12,14 +12,12 @@ class StorylinesController < ApplicationController
   	respond_to do |format|
   	  format.html
       format.json {@storyline}
-      #format.json
   	end
   end
 
   def create     
     puts "**************"
     puts "in storyline create"
-    p params[:storyline]
     p params
     puts "**************" 	
   	@storyline = Storyline.create(params[:storyline])
