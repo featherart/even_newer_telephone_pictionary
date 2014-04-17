@@ -3,12 +3,13 @@
     <% @phrases = Phrase.where(storyline_id: @storyline.id) %>
     <% @pictures = Picture.where(storyline_id: @storyline.id) %>    
     <% @pictures.each_with_index do |picture, index| %>
-      <h3><small><%= @phrases[index].text %></h3></small>
+      <h1><small><%= @phrases[index].text %></h1></small>
       <img src='<%= picture.image %>'>     
     <% end %>
-
-    <button id="play_button" class="btn btn-success">
-      <i class="fa fa-phone-square"></i> 
-      <i class="fa fa-picture-o"></i> play
-    </button>
+</div>
+<div>
+  <button id="play_button" class="btn btn-success">
+    <i class="fa fa-phone-square"></i> 
+    <i class="fa fa-picture-o"></i> play
+  </button>
 </div>
