@@ -1,10 +1,10 @@
 <div class="input-group" id="show_story">
   <h1><%= @storyline.story_name %></h1>
-    <% @pictures = Picture.where(storyline_id: @storyline.id) %>
     <% @phrases = Phrase.where(storyline_id: @storyline.id) %>
+    <% @pictures = Picture.where(storyline_id: @storyline.id) %>    
     <% @pictures.each_with_index do |picture, index| %>
-      <img src='<%= picture.image %>'>
       <h3><small><%= @phrases[index].text %></h3></small>
+      <img src='<%= picture.image %>'>     
     <% end %>
 
     <button id="play_button" class="btn btn-success">

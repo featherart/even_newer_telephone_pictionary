@@ -26,7 +26,6 @@ $(function() {
     var phrase = $("#phrase_text").val(),
         storylineId = $("#storyline_id").val(),
         userId = $("#user_id").val();
-    console.log("in phrase: " + phrase);
     $.ajax({
        url: "/phrases/create/",
        type: "POST",
