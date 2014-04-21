@@ -5,14 +5,15 @@ class PhrasesController < ApplicationController
     puts "in phrase create"
     puts params[:text]
     puts params[:storyline_id]
+    puts params[:name]
     puts params
     puts "**************"
     
   	@phrase = Phrase.new(params[:phrase])
-  	@phrase.text = params[:text]
+  	params[:text] ? @phrase.text = params[:text] : @phrase.text = "" 
+    params[:name] ? @phrase.name = params[:name] : @prase.name = ""
     @phrase.storyline_id = params[:storyline_id]
     @phrase.save!
-  
     # this needs to happen here for now but there might be a better place
     #Turn.where(turn_number: @storyline.turn).first ? @turn = Turn.where(turn_number: @storyline.turn).first). : @turn.create = 1
     @turn = Turn.last

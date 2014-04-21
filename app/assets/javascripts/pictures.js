@@ -8,7 +8,8 @@ TelephonePictionary.Picture = {
     $("#color_drawing").hide();
     $("#phrases").hide();
     $("#picture_instructions").hide();
-    $("#new_drawings").append("<h4><small>Your picture is below</small> </h4><br /><img src='"+$("#picture_image").val() +"' />");
+    $("#new_drawings").append("<h4><small>Your picture is below " + $("#picture_name").val() + "</small> </h4><br />");
+    $("#new_drawings").append("<img src='"+$("#picture_image").val() +"' />");
     $("footer").append("<h4><small>You are the next Picasso! </small> </h4>");   
     $("footer").append('<button class="btn btn-default"><a href="/">next play</a></button><br>');
     $("footer").append("<i class='fa fa-smile-o'></i> <a href='http://tele-pictionary.herokuapp.com/'>share this url</a> to play with a friend.");
@@ -81,7 +82,7 @@ $(function() {
         img = document.createElement('img'),
         drawings_target = $('#drawings_target'),
         storylineId = $("#storyline_id").val(),
-        userId = $("#user_id").val();
+        userName = $("#picture_name").val();
     
     drawings_target.append(img); 
     img.src = url;
@@ -93,7 +94,7 @@ $(function() {
        data: {
          image: url,
          storyline_id: storylineId,
-         user_id: userId
+         name: name
        },
        error: function(data) {
           console.log("something went wrong");

@@ -26,6 +26,7 @@ class PicturesController < ApplicationController
     puts "**************"
     @picture = Picture.new(params[:picture])
     @picture.image = params[:image]
+    @picture.name = params[:name]
     @picture.storyline_id = params[:storyline_id]
     @picture.save!
 

@@ -8,10 +8,17 @@
   <!-- end sketch -->
  
   <%= form_for(@picture) do |f| %>
+    <% if current_user %>
+        <%= f.text_field :name, placeholder: "by #{current_user.name}" %> </br>
+    <% else %>
+        <%= f.text_field :name, placeholder: "enter your name to sign" %> </br>
+    <% end %>
     <%= f.hidden_field :image %>
     <%= hidden_field_tag :storyline_id, @storyline.id %>
     <%= hidden_field_tag :turn_number, @turn %>
-    <%#= hidden_field_tag :user_id, current_user.id %>
+    <% if current_user %>
+      <%= hidden_field_tag :user_name, current_user.name %>
+    <% end %>
     <button type="button" id="clear" class="btn btn-default">
       <i class="fa fa-fast-backward"></i> start over
     </button>

@@ -2,10 +2,15 @@
 <%= form_for(@phrase) do |f| %>
     <div class="input-group input-group-lg">
     <%= f.text_field :text, size: "50", class: "form-control", placeholder: "enter phrase here", autofocus: true, required: true %>
+     <% if current_user %>
+        Yay!
+    <% else %>
+        <%= f.text_field :name, size: "50", class: "form-control",
+        placeholder: "enter your name to sign" %>
+    <% end %>
     </div>
     <%= hidden_field_tag :storyline_id, @storyline.id %>
     <%= hidden_field_tag :turn_number, @turn %>
-    <%#= hidden_field_tag :user_id, current_user.id %>
     <br> 
     <button type="submit" id="submit" class="btn btn-default">
       <i class="fa fa-plus"></i> add phrase

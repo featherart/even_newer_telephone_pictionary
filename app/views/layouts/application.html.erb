@@ -27,7 +27,7 @@
             <li><%= link_to "Hello #{current_user.name}", "#" %></li>
             <li><%= link_to "Sign out", signout_path %></li>
           <% else %>
-            <li><%= link_to "Sign in with Facebook to share", "/auth/facebook" %></li>
+            <li><%= link_to "Sign in with Facebook - optional", "/auth/facebook" %></li>
           <% end %>
           <!-- <li><%#= link_to "Create New Storyline", new_storyline_path %></li> -->
           <li><%= link_to "See Storylines", root_path(list: true) %></li>
