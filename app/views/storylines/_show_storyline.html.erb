@@ -3,8 +3,11 @@
     <% @phrases = Phrase.where(storyline_id: @storyline.id) %>
     <% @pictures = Picture.where(storyline_id: @storyline.id) %>    
     <% @pictures.each_with_index do |picture, index| %>
-      <h1><small><%= @phrases[index].text %></h1></small>
-      <img src='<%= picture.image %>'>     
+      <h3><%= @phrases[index].text %>  
+      <i><small> - <%= @phrases[index].name? ? @phrases[index].name : "anon" %>
+        </i></h3></small>
+      <img src='<%= picture.image %>'> </br> 
+        <small><h3> - <i><%= picture.name? ? picture.name : "anon" %></i></small></h3>
     <% end %>
 </div>
 <div>

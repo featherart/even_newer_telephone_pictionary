@@ -7,13 +7,13 @@ TelephonePictionary.Phrase = {
     console.log("name: " + name);
     if( name === undefined ) {
       console.log("in if");
-      name = "";
+      name = "Captain Scribbles";
     }
     console.log("successfully created a phrase");
     $("#new_phrase").hide();
     $("#phrase_instructions").hide();
     $("#new_phrases").append('<h4><small>Your phrase is below </h4></small><h4 class="subheader">'+ $("#phrase_text").val() +"</h4>");
-    $("footer").append("<h4><small>You are a wizard of wordcraft " + name + "</small> </h4>");
+    $("footer").append("<h4><small>You are a wizard of wordcraft, " + name + "</small> </h4>");
     $("footer").append('<button class="btn btn-default"><a href="/">next play</a></button><br>');
     $("footer").append("<i class='fa fa-smile-o'></i> <a href='http://tele-pictionary.herokuapp.com/'>share this url</a> to play with a friend.");
   }

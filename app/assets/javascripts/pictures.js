@@ -2,13 +2,17 @@ var TelephonePictionary = TelephonePictionary || {}
 
 TelephonePictionary.Picture = {
   successHandler: function( data ) {
+    var name = $("#picture_name").val();
+    if( name === undefined ) {
+      name = "Arty McArts";
+    }
     console.log(data);
     console.log("successfully created a picture");
     $("#new_picture").hide();
     $("#color_drawing").hide();
     $("#phrases").hide();
     $("#picture_instructions").hide();
-    $("#new_drawings").append("<h4><small>Your picture is below " + $("#picture_name").val() + "</small> </h4><br />");
+    $("#new_drawings").append("<h4><small>Your picture is below, " + name + "</small> </h4><br />");
     $("#new_drawings").append("<img src='"+$("#picture_image").val() +"' />");
     $("footer").append("<h4><small>You are the next Picasso! </small> </h4>");   
     $("footer").append('<button class="btn btn-default"><a href="/">next play</a></button><br>');

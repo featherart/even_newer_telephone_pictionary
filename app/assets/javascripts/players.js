@@ -5,7 +5,6 @@ TelephonePictionary.Player = {
     console.log(data);
     console.log("successfully created a player");
     $("#new_player").hide();
-    //$("#new_drawings").append("<h4><small>Your picture is below! Please log out now.</small></h4><br /><img src='"+$("#picture_image").val() +"' />");
     $("footer").append('<button class="btn btn-default"><%= link_to "next play", root_path %></button>');
   }
 };
