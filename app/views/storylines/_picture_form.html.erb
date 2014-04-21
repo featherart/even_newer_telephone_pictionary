@@ -16,9 +16,6 @@
     <%= f.hidden_field :image %>
     <%= hidden_field_tag :storyline_id, @storyline.id %>
     <%= hidden_field_tag :turn_number, @turn %>
-    <% if current_user %>
-      <%= hidden_field_tag :user_name, current_user.name %>
-    <% end %>
     <button type="button" id="clear" class="btn btn-default">
       <i class="fa fa-fast-backward"></i> start over
     </button>
