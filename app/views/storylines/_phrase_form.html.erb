@@ -4,7 +4,7 @@
     <%= f.text_field :text, size: "50", class: "form-control", placeholder: "enter phrase here", autofocus: true, required: true %></br>
      <% if current_user %>
         <%= f.text_field :name, size: "50", class: "form-control",placeholder: "#{current_user.name}" %>
-        <%= hidden_field_tag :name, current_user.name %></br>
+        <%= hidden_field_tag :phrase_name, current_user.name %></br>
     <% else %>
         <%= f.text_field :name, size: "50", class: "form-control",placeholder: "enter your name to sign" %></br>
     <% end %>
