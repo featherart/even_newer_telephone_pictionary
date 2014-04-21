@@ -3,7 +3,9 @@
     <div class="input-group input-group-lg">
     <%= f.text_field :text, size: "50", class: "form-control", placeholder: "enter phrase here", autofocus: true, required: true %>
      <% if current_user %>
-        Yay!
+        <%= f.text_field :name, placeholder: "#{current_user.name}" %>
+        <%= hidden_field_tag :name, current_user.name %>
+         </br>
     <% else %>
         <%= f.text_field :name, size: "50", class: "form-control",
         placeholder: "enter your name to sign" %>
