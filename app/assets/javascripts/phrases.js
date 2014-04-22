@@ -5,7 +5,7 @@ TelephonePictionary.Phrase = {
   successHandler: function( data ) {
     var name = $("#phrase_name").val();
     console.log("name: " + name);
-    if( name === undefined ) {
+    if( name === undefined || name === "" ) {
       console.log("in if");
       name = "Captain Scribbles";
     }

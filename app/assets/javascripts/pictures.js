@@ -3,10 +3,9 @@ var TelephonePictionary = TelephonePictionary || {}
 TelephonePictionary.Picture = {
   successHandler: function( data ) {
     var name = $("#picture_name").val();
-    if( name === undefined ) {
+    if( name === undefined || name === "" ) {
       name = "Arty McArts";
     }
-    console.log(data);
     console.log("successfully created a picture");
     $("#new_picture").hide();
     $("#color_drawing").hide();
@@ -87,7 +86,7 @@ $(function() {
         drawings_target = $('#drawings_target'),
         storylineId = $("#storyline_id").val(),
         userName = $("#picture_name").val();
-    
+
     drawings_target.append(img); 
     img.src = url;
     $hidden.val(url);
@@ -98,7 +97,7 @@ $(function() {
        data: {
          image: url,
          storyline_id: storylineId,
-         name: name
+         name: userName
        },
        error: function(data) {
           console.log("something went wrong");

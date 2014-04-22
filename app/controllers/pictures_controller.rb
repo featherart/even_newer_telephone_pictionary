@@ -14,6 +14,7 @@ class PicturesController < ApplicationController
   	@picture = Picture.new
     puts "**************"
     puts "in pictures new"
+    p params
     puts "**************"
   	respond_to do |format|
   	  format.js
@@ -23,6 +24,8 @@ class PicturesController < ApplicationController
   def create
     puts "**************"
     puts "in pictures create"
+    p params
+    puts params[:name]
     puts "**************"
     @picture = Picture.new(params[:picture])
     @picture.image = params[:image]
